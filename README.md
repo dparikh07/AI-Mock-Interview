@@ -9,17 +9,24 @@ Drizzle ORM with PostgreSQL for database management
 Real-time speech recognition using react-hook-speech-to-text
 Video capture with react-webcam
 
+
 Technology Stack:
+
 Frontend: React.js, Next.js
+
 Backend: PostgreSQL, Drizzle ORM
 
 Installation:
+
 Clone the repository:
 git clone https://github.com/dparikh07/AI-Mock-Interview
+
 Install the dependencies:
 npm install
+
 Start the development server:
 npm run dev
+
 Open http://localhost:3000 in your browser to use the app.
 
 Usage:
