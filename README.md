@@ -1,27 +1,29 @@
-Getting Started
-To run the development server, use one of the following commands:
+Overview:
+An AI-powered web application designed to help users practice their interview skills by simulating real interview environments. The app supports real-time audio and video recording, with feedback and guidance mechanisms for improvement.
 
-bash
-Copy code
-`npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev`
+Features:
+Real-time audio and video recording
+Feedback system for performance review
+User authentication with Clerk
+Drizzle ORM with PostgreSQL for database management
+Real-time speech recognition using react-hook-speech-to-text
+Video capture with react-webcam
 
-Once the server is running, open your browser and go to http://localhost:3000 to see the application in action.
+Technology Stack:
+Frontend: React.js, Next.js
+Backend: PostgreSQL, Drizzle ORM
 
-You can start making changes by editing app/page.js. The changes will automatically reflect in your browser thanks to the hot-reloading feature.
+Installation:
+Clone the repository:
+git clone https://github.com/dparikh07/AI-Mock-Interview
+Install the dependencies:
+npm install
+Start the development server:
+npm run dev
+Open http://localhost:3000 in your browser to use the app.
 
-This project utilizes the next/font feature to optimize and load Google Fonts, including the custom "Inter" font for a better user experience.
+Usage:
+Log in, start a mock interview, record your responses, and receive feedback to improve your performance.
 
-Project Overview
-This is a Next.js-based web application developed to explore and implement modern web development best practices. The project focuses on building highly performant and scalable web applications using React.js, server-side rendering, and API routes.
-
-Key Features:
-Server-Side Rendering (SSR): Ensures faster load times and SEO optimization.
-API Routes: Provides backend functionality without the need for a separate server.
-Font Optimization: Automatically loads and optimizes Google Fonts to enhance performance and visual appeal.
-Modular File Structure: Allows for easy expansion and maintainability.
+Contributions:
+Contributions are welcome! Fork this repo and make a pull request with your changes.
